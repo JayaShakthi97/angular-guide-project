@@ -1,1 +1,4 @@
-<p>questions works!</p>
+<div>
+  <div *ngIf="loading">Loading...</div>
+  <div class="question" *ngFor="let q of questions">{{q.question}}</div>
+</div>
